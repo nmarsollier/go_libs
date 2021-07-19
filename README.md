@@ -93,9 +93,7 @@ func FetchProfile(id string) Profile {
 }
 ```
 
-## Polimorfismo
-
-El uso de interfaces es lo que podríamos denominar polimorfismo en Go, ya que podemos implementar diferentes estructuras con diferentes comportamientos, pero respetando un set de funciones determinado.
+> El uso de interfaces es lo que podríamos denominar polimorfismo en Go, ya que podemos implementar diferentes estructuras con diferentes comportamientos, pero respetando un set de funciones determinado.
 
 ## Y todo esto para que ?
 
