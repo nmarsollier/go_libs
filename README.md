@@ -113,6 +113,8 @@ Normalmente se definen en las librerías, a veces en las implementaciones de los
 
 Por ejemplo, un cliente de base de datos o cliente http, podría exponer muchos métodos, pero a nuestros DAOs no queremos habilitar todos los métodos que pueda exponer un cliente de bases de datos, por lo que creamos una interfaz con un subset de lo que necesitamos en nuestra app, y operamos con ese subset, para evitar usar métodos que no deseamos utilizar del cliente original.
 
+> En algunas bibliografías se recomienda definir la interfaz en cada función, de modo que en cada punto que se define una función se definen las interfaces necesarias, si bien esto parece que nos da flexibilidad, en realidad, terminamos teniendo demasiadas interfaces y muchos código que mantener, no lo recomiendo en lo personal.
+
 ## Reglas de las interfaces
 
 > Robustness principle: Be conservative with what you do, be liberal with you accept
